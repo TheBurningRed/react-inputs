@@ -3,6 +3,7 @@
   "rules": {
     // We use _ to define private variables and methods in clases
     "no-underscore-dangle": 0,
+    "indent": ["error", 2],
     // This seems to be buggy we don't want eslint to check this
     "import/no-extraneous-dependencies": 0,
     // This is a depricated rule. So we turned off it.
